@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Rokh Light';
+    src: url(../fonts/Rokh-Light.woff), format('woff');
+}
+
+
+@font-face {
+    font-family: 'Rokh Normal';
+    src: url(../fonts/Rokh-Normal.woff), format('woff');
+}
+
+@font-face {
+    font-family: 'Rokh Regular';
+    src: url(../fonts/Rokh-Regular.woff), format('woff');
+}
+
+@font-face {
+    font-family: 'Rokh Medium';
+    src: url(../fonts/Rokh-Medium.woff), format('woff');
+}
+
+
+@font-face {
+    font-family: 'Rokh Bold';
+    src: url(../fonts/Rokh-Bold.woff), format('woff');
+}
+
+
+@font-face {
+    font-family: 'RokhFaNum Regular';
+    src: url(../fonts/RokhFaNum-Regular.woff), format('woff');
+}

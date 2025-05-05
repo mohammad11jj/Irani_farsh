@@ -1,0 +1,230 @@
+.basket{
+padding-top: 5rem;
+padding-bottom: 15rem;
+}
+.basket__wrapper{
+    /* display: flex;
+    justify-content: space-between;
+    width: 100%; */
+    display: grid;
+    grid-template-columns: 60% 32%;
+    justify-content: space-between;
+}
+.basket__right{
+/* width: 60%; */
+}
+.shopping__box{
+border: 1px solid #ADADAD;
+border-radius: 1.2rem;
+padding: 3.6rem 2.4rem;
+}
+.shopping__title{
+font-weight: 700;
+font-size: 1.6rem;
+line-height: 140%;
+letter-spacing: 0;
+padding-bottom: 3rem;
+}
+.shopping__items{
+display: flex;
+flex-direction: column;
+gap: 3rem;
+}
+.shopping__item{
+display: flex;
+gap: 2rem;
+}
+.shopping__top{
+    display: flex;
+    gap: 2rem;
+}
+
+.shopping__right{
+width: 16rem;
+height: 23rem;
+}
+.shopping__image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.shopping__left{
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+.shopping__caption{
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 140%;
+    letter-spacing: 0;
+}
+.shopping__detail{
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 180%;
+    letter-spacing: 0;
+}
+.shopping__company{
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 180%;
+    letter-spacing: 0;
+}
+
+.shopping__price-title{
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 180%;
+    letter-spacing: 0;
+    padding-left: 2rem;
+}
+.shopping__price-value{
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 140%;
+    letter-spacing: 0;
+}
+.shopping__control,
+.shopping__control-m{
+width: 15rem;
+height: 5.9rem;
+border-radius: 0.8rem;
+border: 1px solid #ADADAD;
+padding: 0.6rem 0.8rem;
+}
+.shopping__control button{
+    border: none;
+    background: transparent;
+}
+.shopping__control-top{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+.shopping__increase-icon,
+.shopping__decrease-icon,
+.decrease-btn{
+cursor: pointer;
+}
+.shopping__decrease-icon{
+    color: #E43434;
+}
+.shopping__numbers{
+font-weight: 600;
+font-size: 2rem;
+line-height: 140%;
+letter-spacing: 0;
+}
+.shopping__remove-icon{
+cursor: pointer;
+}
+.shopping__control-bottom{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 70%;
+}
+.shopping__number-title{
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 180%;
+    letter-spacing: 0;
+}
+.shopping__control-m{
+    display: none;
+}
+.shopping__empty-basket{
+    /* display: flex; */
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.shopping__empty-basket-icon{
+
+}
+.shopping__empty-basket-text{
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 140%;
+    letter-spacing: 0;
+}
+.basket__left{
+/* width: 32%; */
+}
+.basket__dashboard{
+    border: 1px solid #ADADAD;
+    border-radius: 0.8rem;
+    padding: 2.6rem 1.9rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+    /* height: 100%; */
+    justify-content: space-between;
+}
+.basket__amount{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.basket__amount-title{
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 180%;
+    letter-spacing: 0;
+}
+.basket__amount-value{
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 180%;
+    letter-spacing: 0;
+}
+.basket__total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.basket__total-title{
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 180%;
+    letter-spacing: 0;
+}
+.basket__total-value{
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 140%;
+    letter-spacing: 0;
+}
+.basket__sender{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.basket__sender-title{
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 180%;
+    letter-spacing: 0;
+}
+.basket__sender-value{
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 140%;
+    letter-spacing: 0;
+}
+.basket__btn{
+background: var(--primary-color);
+color: #fff;
+width: 100%;
+height: 4rem;
+line-height: 4rem;
+display: block;
+margin: 0 auto;
+}
+
+
+/* styels of Features section in mobile screen */
+
