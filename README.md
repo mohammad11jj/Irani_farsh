@@ -37,7 +37,7 @@ project/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/irani-farsh-ecommerce.git
+   git clone https://github.com/mohammad11jj/Irani_farsh.git
 
    ```
 
